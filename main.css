@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'inter', sans-serif;
+
+}
+
+/* Reusable Starts Here */
+
+/* Reusable Ends Here */
+
+/* Price Header Starts Here */
+.pricingcard__header{
+    /* border: 3px solid tomato; */
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingcard__header p{
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.pricingcard__button-holder{
+    height: 45px;
+    width: 260px;
+    background: #d9d9d9;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingcard__header button{
+    padding: 10px 15px;
+    background: white;
+    border: none;
+    /* outline: none; */
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.pricingcard__header .btn{
+    padding: 10px 15px;
+    color: black;
+    border: none;
+    background: #d9d9d9;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Price Header Ends Here */
+
+/* Princing Section Starts Here */
+.pricing__section{
+    border: 3px solid black;
+    border-radius: 25px;
+    display: flex;
+    /* justify-content: center; */
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pricing__content-holder{
+    border: 3px solid black;
+    height: 530px;
+    width: 300px;
+    padding: 0 25px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;  
+}
+
+.pricing__content-holder h4{
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pricing__content-holder p{
+    padding-bottom: 20px;
+}
+
+.pricing__content-holder h2{
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+.pricing__content-holder span{
+    font-size: 13px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.pricing__content-holder h5{
+    padding-top: 0;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.pricing__content-holder button{
+    padding: 12px 20px;
+    background: black;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    margin: 15px 0;
+}
+
+#last{
+    border: none;
+}
+
+.features__holder span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.features__holder .holder-one{
+    padding: 37px 0;
+}
+
+.features__holder h6{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.features__holder ul{
+    padding: 10px 0;
+}
+
+.features__holder li{
+    list-style: none; 
+}
+/* Princing Section Ends Here */
+
+/*  Pricing Content Holder Starts Here*/
+
+/*  Pricing Content Holder Ends Here*/

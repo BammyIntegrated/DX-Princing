@@ -1,0 +1,14 @@
+@media screen and (max-width:1180px){
+
+    .pricing__section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pricing__content-holder{
+        border: none!important;
+    }
+   
+}
